@@ -133,12 +133,13 @@
                         <p class="bg-green-100">Selected Seat</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-5">
+                <div id="ticket" onclick="setcolour()" class=" grid grid-cols-5 gap-y-4 text-center ">
                     <p>A</p>
-                    <p>A1</p>
-                    <p>A2</p>
-                    <p>A3</p>
-                    <p>A4</p>
+                    <p id="A1" class="bg-gray-300 m-2 rounded-lg p-2 font-bold text-xl">A1</p>
+                    <p id="A2" class="bg-gray-300 m-2 rounded-lg p-2 font-bold text-xl">A2</p>
+                    <p id="A3" class="bg-gray-300 m-2 rounded-lg p-2 font-bold text-xl">A3</p>
+                    <p id="A4" class="bg-gray-300 m-2 rounded-lg p-2 font-bold text-xl">A4</p>
+
                 </div>
             </div>
             <div class=""></div>
@@ -148,6 +149,7 @@
 
     </div>
     <script src="tailwind.config.js"></script>
+    <script src="js/ticket.js"></script>
 </body>
 
 </html>
