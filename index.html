@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
 <body>
@@ -119,23 +120,34 @@
             </div>
         </div>
         <!-- bus sit -->
-        <div class="container mx-auto">
-            <h1 class="font-bold text-3xl">Select Your Seat</h1>
-            <div class="flex justify-between">
-                <div class="flex text-xl ">
-                    <img src="images/seat-gray.png" alt="">
-                    <p>Available</p>
+        <div class="flex flex-row container mx-auto ">
+            <div class="w-2/4">
+                <h1 class="font-bold text-3xl">Select Your Seat</h1>
+                <div class="flex justify-between">
+                    <div class="flex text-xl ">
+                        <img src="images/seat-gray.png" alt="">
+                        <p>Available</p>
+                    </div>
+                    <div class="flex text-xl ">
+                        <img src="images/seat-green.png" alt="">
+                        <p class="bg-green-100">Selected Seat</p>
+                    </div>
                 </div>
-                <div class="flex text-xl ">
-                    <img src="images/seat-green.png" alt="">
-                    <p class="bg-green-100">Selected Seat</p>
+                <div class="grid grid-cols-5">
+                    <p>A</p>
+                    <p>A1</p>
+                    <p>A2</p>
+                    <p>A3</p>
+                    <p>A4</p>
                 </div>
             </div>
+            <div class=""></div>
         </div>
 
 
-    </div>
 
+    </div>
+    <script src="tailwind.config.js"></script>
 </body>
 
 </html>
